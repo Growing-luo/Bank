@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/DBPool" auth="Container"
+	 type="javax.sql.DataSource"
+	factory="org.apache.commons.dbcp2.BasicDataSourceFactory"
+	username="root"
+	password="Luominghui@729"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/bank?serverTimezone=UTC"
+	maxTotal="20"
+	maxIdle="5"
+	maxWaitMillis="5000" />
+</Context>
